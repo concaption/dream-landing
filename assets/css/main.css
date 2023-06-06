@@ -16,7 +16,7 @@ body {
   font-family: "Heebo", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #60698D;
+  color: #60698d;
   overflow-x: hidden;
 }
 
@@ -44,7 +44,7 @@ button:focus,
 }
 
 a:hover {
-  color: #487CFF;
+  color: #487cff;
 }
 
 a {
@@ -81,7 +81,7 @@ h6 {
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
   margin: 0px;
-  color: #1D2A5D;
+  color: #1d2a5d;
 }
 
 h1 a,
@@ -112,7 +112,7 @@ h1 {
 .section-title span {
   font-size: 25px;
   font-weight: 600;
-  color: #487CFF;
+  color: #487cff;
   margin-bottom: 20px;
 }
 
@@ -180,9 +180,9 @@ p {
   color: #fff;
   cursor: pointer;
   z-index: 5;
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   border: none;
-  background: #487CFF;
+  background: #487cff;
   overflow: hidden;
 }
 
@@ -196,7 +196,7 @@ p {
 }
 
 .btn-hover::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 0%;
   height: 0%;
@@ -217,7 +217,7 @@ p {
 .scroll-top {
   width: 45px;
   height: 45px;
-  background: #487CFF;
+  background: #487cff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -323,7 +323,7 @@ p {
   height: 100%;
   border-style: solid;
   /* Spinner Color */
-  border-color: #487CFF #487CFF #ddd;
+  border-color: #487cff #487cff #ddd;
   border-radius: 50%;
   border-width: 6px;
 }
@@ -426,7 +426,8 @@ p {
   padding: 17px 0;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .sticky .navbar {
     padding: 15px 0;
   }
@@ -437,11 +438,11 @@ p {
 }
 
 .sticky .navbar .navbar-nav .nav-item a::before {
-  background: #487CFF;
+  background: #487cff;
 }
 
 .sticky .navbar .navbar-toggler .toggler-icon {
-  background: #1D2A5D;
+  background: #1d2a5d;
 }
 
 .navbar {
@@ -452,7 +453,8 @@ p {
   padding: 20px 0;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .navbar {
     padding: 17px 0;
   }
@@ -499,7 +501,8 @@ p {
   top: -7px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .navbar-collapse {
     position: absolute;
     top: 100%;
@@ -517,7 +520,8 @@ p {
   margin-left: 40px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .navbar-nav .nav-item {
     margin-left: 20px;
   }
@@ -532,16 +536,17 @@ p {
   position: relative;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .navbar-nav .nav-item a {
     display: inline-block;
     padding: 6px 10px;
-    color: #60698D;
+    color: #60698d;
   }
 }
 
 .navbar-nav .nav-item a::before {
-  content: '';
+  content: "";
   width: 8px;
   height: 8px;
   border-radius: 50%;
@@ -554,13 +559,15 @@ p {
   opacity: 0;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .navbar-nav .nav-item a::before {
-    background: #487CFF;
+    background: #487cff;
   }
 }
 
-.navbar-nav .nav-item a:hover::before, .navbar-nav .nav-item a.active::before {
+.navbar-nav .nav-item a:hover::before,
+.navbar-nav .nav-item a.active::before {
   opacity: 1;
 }
 
@@ -626,9 +633,10 @@ p {
   color: #222;
 }
 
-.navbar-nav .nav-item .sub-menu li a.active, .navbar-nav .nav-item .sub-menu li a:hover {
+.navbar-nav .nav-item .sub-menu li a.active,
+.navbar-nav .nav-item .sub-menu li a:hover {
   padding-left: 25px;
-  color: #487CFF;
+  color: #487cff;
 }
 
 .navbar-nav .sub-nav-toggler {
@@ -734,11 +742,19 @@ p {
 
 .hero-section .hero-content .main-btn {
   background: #fff;
-  color: #487CFF;
+  color: #487cff;
   font-size: 20px;
   font-weight: 700;
   padding: 18px 52px;
 }
+/* 
+.hero-section .hero-content .first-btn {
+  background: #487cff;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 52px;
+} */
 
 .hero-section .hero-img {
   position: relative;
@@ -774,7 +790,8 @@ p {
   padding: 30px 0;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .client-logo-section .client-logo-wrapper {
     justify-content: center;
   }
@@ -783,7 +800,7 @@ p {
 .client-logo-section .client-logo-wrapper .single-logo {
   width: 180px;
   margin: 10px;
-  opacity: .4;
+  opacity: 0.4;
   transition: all 0.3s ease-out 0s;
 }
 
@@ -815,7 +832,7 @@ p {
   width: 75px;
   height: 75px;
   border-radius: 5px;
-  background: #487CFF;
+  background: #487cff;
   color: #fff;
   position: relative;
   display: flex;
@@ -827,25 +844,25 @@ p {
 }
 
 .feature-section .single-feature .icon::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
   background: inherit;
   top: -8px;
   right: -8px;
-  opacity: .2;
+  opacity: 0.2;
   border-radius: inherit;
   z-index: -1;
   transition: all 0.3s ease-out 0s;
 }
 
 .feature-section .single-feature .icon.color-2 {
-  background: #FFB260;
+  background: #ffb260;
 }
 
 .feature-section .single-feature .icon.color-3 {
-  background: #FF92A5;
+  background: #ff92a5;
 }
 
 .feature-section .single-feature .content h3 {
@@ -860,7 +877,7 @@ p {
 .single-department span {
   width: 12px;
   height: 12px;
-  background: #487CFF;
+  background: #487cff;
   border-radius: 50%;
   box-shadow: 0 3px 6px rgba(72, 124, 255, 0.34);
   margin-bottom: 25px;
@@ -911,11 +928,11 @@ p {
   padding: 18px 25px;
   padding-right: 45px;
   position: relative;
-  color: #1D2A5D;
+  color: #1d2a5d;
 }
 
 .faq-section .single-faq button.collapsed {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .faq-section .single-faq button.collapsed::after {
@@ -923,11 +940,11 @@ p {
 }
 
 .faq-section .single-faq button::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 27px;
   right: 25px;
-  border-top: 9px solid #60698D;
+  border-top: 9px solid #60698d;
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
   transition: all 0.3s ease-out 0s;
@@ -1012,17 +1029,17 @@ p {
 
 .footer .widget-wrapper .footer-widget .download li a .icon {
   font-size: 30px;
-  color: #1D2A5D;
+  color: #1d2a5d;
   margin-right: 10px;
 }
 
 .footer .widget-wrapper .footer-widget .download li a .text {
   font-size: 10px;
-  color: #60698D;
+  color: #60698d;
 }
 
 .footer .widget-wrapper .footer-widget .download li a .text b {
-  color: #1D2A5D;
+  color: #1d2a5d;
   font-size: 16px;
   font-weight: 700;
   display: block;
