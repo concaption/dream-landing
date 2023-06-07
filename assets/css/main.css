@@ -16,7 +16,7 @@ body {
   font-family: "Heebo", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #60698d;
+  color: #121212;
   overflow-x: hidden;
 }
 
@@ -44,7 +44,7 @@ button:focus,
 }
 
 a:hover {
-  color: #487cff;
+  color: #121212;
 }
 
 a {
@@ -81,7 +81,7 @@ h6 {
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
   margin: 0px;
-  color: #1d2a5d;
+  color: #121212;
 }
 
 h1 a,
@@ -112,7 +112,7 @@ h1 {
 .section-title span {
   font-size: 25px;
   font-weight: 600;
-  color: #487cff;
+  color: #121212;
   margin-bottom: 20px;
 }
 
@@ -182,7 +182,7 @@ p {
   z-index: 5;
   transition: all 0.4s ease-in-out;
   border: none;
-  background: #487cff;
+  background: #121212;
   overflow: hidden;
 }
 
@@ -217,7 +217,7 @@ p {
 .scroll-top {
   width: 45px;
   height: 45px;
-  background: #487cff;
+  background: #121212;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -234,7 +234,7 @@ p {
 
 .scroll-top:hover {
   color: #fff;
-  background: rgba(72, 124, 255, 0.8);
+  background: #3a3a3a;
 }
 
 @keyframes animation1 {
@@ -259,7 +259,7 @@ p {
   height: 100%;
   width: 100%;
   /* Change Background Color */
-  background: #fff;
+  background: #121212;
   z-index: 99999;
 }
 
@@ -323,7 +323,7 @@ p {
   height: 100%;
   border-style: solid;
   /* Spinner Color */
-  border-color: #487cff #487cff #ddd;
+  border-color: #121212 #121212 #ddd;
   border-radius: 50%;
   border-width: 6px;
 }
@@ -438,11 +438,11 @@ p {
 }
 
 .sticky .navbar .navbar-nav .nav-item a::before {
-  background: #487cff;
+  background: #121212;
 }
 
 .sticky .navbar .navbar-toggler .toggler-icon {
-  background: #1d2a5d;
+  background: #121212;
 }
 
 .navbar {
@@ -541,7 +541,7 @@ p {
   .navbar-nav .nav-item a {
     display: inline-block;
     padding: 6px 10px;
-    color: #60698d;
+    color: #121212;
   }
 }
 
@@ -562,7 +562,7 @@ p {
 @media only screen and (min-width: 768px) and (max-width: 991px),
   (max-width: 767px) {
   .navbar-nav .nav-item a::before {
-    background: #487cff;
+    background: #121212;
   }
 }
 
@@ -636,7 +636,7 @@ p {
 .navbar-nav .nav-item .sub-menu li a.active,
 .navbar-nav .nav-item .sub-menu li a:hover {
   padding-left: 25px;
-  color: #487cff;
+  color: #121212;
 }
 
 .navbar-nav .sub-nav-toggler {
@@ -742,14 +742,14 @@ p {
 
 .hero-section .hero-content .main-btn {
   background: #fff;
-  color: #487cff;
+  color: #121212;
   font-size: 20px;
   font-weight: 700;
   padding: 18px 52px;
 }
 /* 
 .hero-section .hero-content .first-btn {
-  background: #487cff;
+  background: #121212;
   color: #fff;
   font-size: 20px;
   font-weight: 700;
@@ -832,7 +832,7 @@ p {
   width: 75px;
   height: 75px;
   border-radius: 5px;
-  background: #487cff;
+  background: #121212;
   color: #fff;
   position: relative;
   display: flex;
@@ -877,7 +877,7 @@ p {
 .single-department span {
   width: 12px;
   height: 12px;
-  background: #487cff;
+  background: #121212;
   border-radius: 50%;
   box-shadow: 0 3px 6px rgba(72, 124, 255, 0.34);
   margin-bottom: 25px;
@@ -928,7 +928,7 @@ p {
   padding: 18px 25px;
   padding-right: 45px;
   position: relative;
-  color: #1d2a5d;
+  color: #121212;
 }
 
 .faq-section .single-faq button.collapsed {
@@ -944,7 +944,7 @@ p {
   position: absolute;
   top: 27px;
   right: 25px;
-  border-top: 9px solid #60698d;
+  border-top: 9px solid #121212;
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
   transition: all 0.3s ease-out 0s;
@@ -1029,17 +1029,17 @@ p {
 
 .footer .widget-wrapper .footer-widget .download li a .icon {
   font-size: 30px;
-  color: #1d2a5d;
+  color: #121212;
   margin-right: 10px;
 }
 
 .footer .widget-wrapper .footer-widget .download li a .text {
   font-size: 10px;
-  color: #60698d;
+  color: #121212;
 }
 
 .footer .widget-wrapper .footer-widget .download li a .text b {
-  color: #1d2a5d;
+  color: #121212;
   font-size: 16px;
   font-weight: 700;
   display: block;
