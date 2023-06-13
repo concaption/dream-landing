@@ -998,6 +998,14 @@ p {
   font-weight: 600;
 }
 
+.footer .widget-wrapper .footer-widget h4 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-weight: 600;
+  display: flex;
+  justify-content: right;
+}
+
 .footer .widget-wrapper .footer-widget .links li a {
   color: #fff;
   font-size: 16px;
@@ -1008,9 +1016,16 @@ p {
   padding-left: 6px;
 }
 
+.footer .widget-wrapper .footer-widget p {
+  color: #fff;
+  font-size: 16px;
+}
+
 .footer .widget-wrapper .footer-widget .download {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end; /* Move to the right */
   align-items: center;
 }
 
@@ -1024,22 +1039,21 @@ p {
   border-radius: 10px;
   padding: 15px 25px;
   margin-bottom: 15px;
-  align-items: center;
 }
 
 .footer .widget-wrapper .footer-widget .download li a .icon {
   font-size: 30px;
-  color: #121212;
+  color: #1d2a5d;
   margin-right: 10px;
 }
 
 .footer .widget-wrapper .footer-widget .download li a .text {
   font-size: 10px;
-  color: #121212;
+  color: #60698d;
 }
 
 .footer .widget-wrapper .footer-widget .download li a .text b {
-  color: #121212;
+  color: #1d2a5d;
   font-size: 16px;
   font-weight: 700;
   display: block;
